@@ -1,0 +1,121 @@
+[
+    {
+        "nombre": "Castolo",
+        "disparo": 7,
+        "gambeta": 7, 
+        "tecnica": 6,
+        "posicionamiento": 6,
+        "estadoFisico": 8,
+        "temperaturaPectoral": 5,
+        "quite": 4,
+        "arquero": 1
+    },
+    {
+        "nombre": "Capitale",
+        "disparo": 10,
+        "gambeta": 6, 
+        "tecnica": 6,
+        "posicionamiento": 7,
+        "estadoFisico": 8,
+        "temperaturaPectoral": 9,
+        "quite": 4,
+        "arquero": 2
+        
+    },
+    {
+        "nombre": "Murilo ",
+        "disparo": 7,
+        "gambeta": 10, 
+        "tecnica": 10,
+        "posicionamiento": 7,
+        "estadoFisico": 7,
+        "temperaturaPectoral": 6,
+        "quite": 2,
+        "arquero": 1
+    },
+    {
+        "nombre": "Redonda",
+        "disparo": 9,
+        "gambeta": 10, 
+        "tecnica": 10,
+        "posicionamiento": 8,
+        "estadoFisico": 9,
+        "temperaturaPectoral": 10,
+        "quite": 5,
+        "arquero": 3
+        
+    },
+    {
+        "nombre": "Kolle",
+        "disparo": 4,
+        "gambeta": 6, 
+        "tecnica": 9,
+        "posicionamiento": 9,
+        "estadoFisico": 8,
+        "temperaturaPectoral": 8,
+        "quite": 10,
+        "arquero": 5
+        
+    },
+    {
+        "nombre": "Wagner",
+        "disparo": 5,
+        "gambeta": 2, 
+        "tecnica": 4,
+        "posicionamiento": 8,
+        "estadoFisico": 8,
+        "temperaturaPectoral": 7,
+        "quite": 6,
+        "arquero": 10
+        
+    },
+    {
+        "nombre": "Heretier",
+        "disparo": 7,
+        "gambeta": 7, 
+        "tecnica": 7,
+        "posicionamiento": 9,
+        "estadoFisico": 9,
+        "temperaturaPectoral": 10,
+        "quite": 8,
+        "arquero": 2 
+    },
+    {
+        "nombre": "Seneca",
+        "disparo": 6,
+        "gambeta": 7, 
+        "tecnica": 7,
+        "posicionamiento": 6,
+        "estadoFisico": 7,
+        "temperaturaPectoral": 5,
+        "quite": 3,
+        "arquero": 3
+    
+    },
+    {
+        "nombre": "LeRoux",
+        "disparo": 4,
+        "gambeta": 3, 
+        "tecnica": 8,
+        "posicionamiento": 9,
+        "estadoFisico": 9,
+        "temperaturaPectoral": 6,
+        "quite": 9,
+        "arquero": 6
+
+    },
+    {
+        "nombre": "Premoli",
+        "disparo": 5,
+        "gambeta": 7, 
+        "tecnica": 9,
+        "posicionamiento": 9,
+        "estadoFisico": 10,
+        "temperaturaPectoral": 9,
+        "quite": 10,
+        "arquero": 6
+        
+    }
+    
+
+]

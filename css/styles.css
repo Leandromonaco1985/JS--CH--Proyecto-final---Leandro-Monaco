@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flexbox;
+    padding: 50px;
+    color: #F2C12E;
+    font-size:larger;
+    text-align: center;
+    justify-items: center;
+    height: 150px;
+}
+.container{
+    background-color: #024959;
+}
+
+
+.contenedoraBtnm{
+    display: grid;
+    justify-content: center;
+    justify-self: center; 
+} 
+h2{
+    display: flexbox;
+    padding: 50px;
+    color:#F2C12E;
+    text-align: center;
+    justify-items: center;
+}
+h4{
+    padding-top: 125px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 40px;
+    color:#F2C12E;
+}
+/* Formulario Jugador */
+main .formularioJugador{
+    display: flexbox;
+    background-color: #e7131300 ;
+}
+
+.labels{
+    color:#F2C12E;
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.tablaJugadores{
+    background-color:#F2C12E;
+    color: #024959;
+}
+/* botones */
+#crearJugador{
+    margin-top: 50px;
+    color:#593E25;
+    background-color:#F2C12E;
+    border-color:rgb(75, 35, 35);
+    width: 60vh;
+}
+.btnEliminar {
+    background-color: red;
+    color: white;
+    width: 30px; /* El ancho y alto deben ser iguales para que sea un círculo */
+    height: 30px;
+    border-radius: 50%; /* Establece el radio para hacerlo redondo (50% del ancho o alto) */
+    text-align: center; /* Centra el contenido del botón horizontalmente */
+    line-height: 30px; /* Centra el contenido del botón verticalmente */
+    font-size: 16px; /* Tamaño de fuente del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border:none;
+    
+  }
+  .btnEliminar:hover {
+    color: red;
+    background-color: black; /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+
+.btnAgregar{
+    background-color:  rgb(48, 155, 48);
+    color: white;
+    width: 30px; /* El ancho y alto deben ser iguales para que sea un círculo */
+    height: 30px;
+    border-radius: 50%; /* Establece el radio para hacerlo redondo (50% del ancho o alto) */
+    text-align: center; /* Centra el contenido del botón horizontalmente */
+    line-height: 30px; /* Centra el contenido del botón verticalmente */
+    font-size: 10px; /* Tamaño de fuente del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border:none;
+    
+}
+.btnAgregar:hover {
+    color: #7AEB34;
+    background-color: white; /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+#btnCompara{
+    margin-top: 50px;
+    color: rgb(75, 35, 35);
+    background-color:#F2C12E;
+    border-color:rgb(75, 35, 35);
+    width: 60vh;
+}
+.boton{
+    text-align: center;
+    justify-items: center;
+}
+#btnJson{
+    color: rgb(75, 35, 35);
+    background-color:#F2C12E;
+    border-color:rgb(75, 35, 35);
+}
+ /*api footbal*/
+  
+  .apiFootbal{
+    max-height: 300px; 
+    overflow-y: auto;
+  }
+  
+  .container h6{    
+    text-align: center;
+    justify-items: center;
+    color:#F2C12E;
+    padding: 40px;
+
+  }
