@@ -38,7 +38,7 @@ return mediaHabilidad.toFixed(1)
 let btnJson = document.getElementById("btnJson")
 btnJson.addEventListener("click", traerJson)
 function traerJson(){
-  fetch("./js/jugadores_historicos.json")
+  fetch("../js/jugadores_historicos.json")
   .then (respuesta => respuesta.json())
   .then (datos => {
       jugadoresHistoricos = datos;
