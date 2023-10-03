@@ -38,7 +38,7 @@ return mediaHabilidad.toFixed(1)
 let btnJson = document.getElementById("btnJson")
 btnJson.addEventListener("click", traerJson)
 function traerJson(){
-  fetch("./js/jugadores_historicos.json")
+  fetch("https://raw.githubusercontent.com/Leandromonaco1985/JS--CH--Proyecto-final---Leandro-Monaco/main/Js/jugadores_historicos.json")
   .then (respuesta => respuesta.json())
   .then (datos => {
       jugadoresHistoricos = datos;
@@ -488,13 +488,10 @@ let sumaPromedioE2 = 0;
   }
   for (let i=0; i < equipo1.length; i++){
     sumaPromedioE1 += equipo1[i].promedio;
-    console.log("promedioe1", sumaPromedioE1);
   }
   for (let i=0; i < equipo2.length; i++){
     sumaPromedioE2 += equipo2[i].promedio;
-    console.log("promedio e2", sumaPromedioE2)
   }
-
 
 //creo variables para englobar tipos de atributos y establecer comparaciones
 
@@ -591,7 +588,6 @@ if (diferenciaMedias > 1) {
       
       ]
     };
-  
     let options = {
         scales: {
             y: {
